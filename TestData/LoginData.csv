@@ -1,0 +1,5 @@
+${username};${password};${error_msg};
+standard_us;secret_sauce;Epic sadface: Username and password do not match any user in this service;
+standard_user;secret_sa;Epic sadface: Username and password do not match any user in this service;
+${EMPTY};${EMPTY};Epic sadface: Username is required;
+standard_us;secret_sa;Epic sadface: Username and password do not match any user in this service;

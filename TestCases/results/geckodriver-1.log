@@ -1,0 +1,19 @@
+1653375814778	geckodriver	INFO	Listening on 127.0.0.1:55949
+1653375817879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofilefm5cgF"
+1653375818582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofilefm5cgF\\search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  maybeScheduleBackgroundUpdateTask: exiting after uncaught exception in maybeScheduleBackgroundUpdateTask!
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWinTaskSchedulerService.deleteTask]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/TaskSchedulerWinImpl.jsm :: deleteTask :: line 60"  data: no]
+  Stack:
+    deleteTask@resource://gre/modules/TaskSchedulerWinImpl.jsm:60:16
+deleteTask@resource://gre/modules/TaskScheduler.jsm:145:18
+maybeScheduleBackgroundUpdateTask@resource://gre/modules/BackgroundUpdate.jsm:469:31
+
+1653375821660	Marionette	INFO	Listening on port 55957
+1653375822032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653375825226	Marionette	INFO	Stopped listening on port 55957
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+

@@ -1,0 +1,22 @@
+1653376261115	geckodriver	INFO	Listening on 127.0.0.1:57399
+1653376264166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofilesJtQgs"
+1653376265291	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofilesJtQgs\\search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  maybeScheduleBackgroundUpdateTask: exiting after uncaught exception in maybeScheduleBackgroundUpdateTask!
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWinTaskSchedulerService.deleteTask]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/TaskSchedulerWinImpl.jsm :: deleteTask :: line 60"  data: no]
+  Stack:
+    deleteTask@resource://gre/modules/TaskSchedulerWinImpl.jsm:60:16
+deleteTask@resource://gre/modules/TaskScheduler.jsm:145:18
+maybeScheduleBackgroundUpdateTask@resource://gre/modules/BackgroundUpdate.jsm:469:31
+
+1653376269097	Marionette	INFO	Listening on port 57407
+1653376269655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653376282331	Marionette	INFO	Stopped listening on port 57407

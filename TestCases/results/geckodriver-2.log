@@ -1,0 +1,15 @@
+1653375946196	geckodriver	INFO	Listening on 127.0.0.1:56071
+1653375949284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofileRLzXpr"
+1653375949989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\15624\\AppData\\Local\\Temp\\rust_mozprofileRLzXpr\\search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  maybeScheduleBackgroundUpdateTask: exiting after uncaught exception in maybeScheduleBackgroundUpdateTask!
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWinTaskSchedulerService.deleteTask]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/TaskSchedulerWinImpl.jsm :: deleteTask :: line 60"  data: no]
+  Stack:
+    deleteTask@resource://gre/modules/TaskSchedulerWinImpl.jsm:60:16
+deleteTask@resource://gre/modules/TaskScheduler.jsm:145:18
+maybeScheduleBackgroundUpdateTask@resource://gre/modules/BackgroundUpdate.jsm:469:31
+
+1653375952796	Marionette	INFO	Listening on port 56079
+1653375952944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653375955878	Marionette	INFO	Stopped listening on port 56079
